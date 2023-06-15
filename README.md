@@ -20,15 +20,14 @@ partition the data, cache and uncache a temporary table, and verify that the tab
       
 5.	Cache your temporary table home_sales.
 
-7.	Check if your temporary table is cached.
-8.	
+7.	Check if your temporary table is cached..	
 9.	Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-10.	
+	
 11.	Partition by the "date_built" field on the formatted parquet home sales data.
 12.	Create a temporary table for the parquet data.
-13.	
+	
 14.	Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
-15.	
+	
 16.	Uncache the home_sales temporary table.
-17.	
+	
 18.	Verify that the home_sales temporary table is uncached using PySpark.
